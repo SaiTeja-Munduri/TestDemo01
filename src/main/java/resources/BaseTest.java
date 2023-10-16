@@ -20,6 +20,8 @@ public class BaseTest
 	public WebDriver initialize() throws IOException
 	{
 		System.out.println("POst test");
+		System.out.println("POst test00");
+		System.out.println("POst test11");
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\myntra_homefurnishings\\resources\\data.properties");
 		prop.load(fis);
