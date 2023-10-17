@@ -13,6 +13,8 @@ public class Search_test extends BaseTest
 	@Test
 	public void searchValidation() throws IOException, InterruptedException
 	{
+		System.out.println("New Changes003");
+		System.out.println("New changes004");
 		initialize();
 		PageObjects elements= new PageObjects(driver);
 		elements.getSearchBar().sendKeys("Shirt");
