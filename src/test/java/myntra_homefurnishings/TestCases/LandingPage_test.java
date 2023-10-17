@@ -17,6 +17,8 @@ public class LandingPage_test extends BaseTest
 	@Test
 	public void nameValidation() throws IOException
 	{
+		System.out.println("Validation 3 develop");
+		System.out.println("Validation 4 develop");
 		initialize();
 		PageObjects element = new PageObjects(driver);
 		List<WebElement> products = element.getProduct();

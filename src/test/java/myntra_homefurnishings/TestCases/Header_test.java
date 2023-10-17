@@ -3,6 +3,8 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
+
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import resources.BaseTest;
 import resources.PageObjects;
 
@@ -18,7 +20,8 @@ public class Header_test extends BaseTest
 	@Test(priority =1)
 	public void menLinkValidation() throws IOException, InterruptedException
 	{
-		
+		System.out.println("Validation 1 develop");
+		System.out.println("Validation 2 develop");
 		initialize();
 		PageObjects elements= new PageObjects(driver);
 		elements.getMenLink().click();

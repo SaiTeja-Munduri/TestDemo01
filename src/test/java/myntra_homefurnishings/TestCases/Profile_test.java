@@ -15,6 +15,8 @@ public class Profile_test extends BaseTest
 	@Test
 	public void profileValidation() throws IOException, InterruptedException
 	{
+		System.out.println("Validation 5 develop");
+		System.out.println("Validation 6 develop");
 		
 		initialize();
 		PageObjects elements= new PageObjects(driver);
